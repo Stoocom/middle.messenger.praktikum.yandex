@@ -1,5 +1,12 @@
+html {
+   --empty-button-color: #FFFFFF;
+   --full-button-color: #3369F3;
+   --base-text-color: #1E1E1E;
+   --base-background-color: #FFFFFF;
+}
+
 * {
-  outline: 0 !important;
+    outline: 0 !important;
 }
 
 body {
@@ -26,7 +33,7 @@ body {
     flex-direction: column;
     width: 340px;
     max-height: 600px;
-    background: #FFFFFF;
+    background: var(--base-background-color);
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
     border-radius: 12px;
     font-family: 'Inter';
@@ -35,7 +42,7 @@ body {
     font-size: 20px;
     line-height: 20px;
     text-align: center;
-    color: #1E1E1E;
+    color: var(--base-text-color);
 }
 
 .log_size {
@@ -74,9 +81,9 @@ body {
     align-items: center;
     width: 250px;
     height: 37px;
-    background: #3369F3;
+    background: var(--full-button-color);
     border-radius: 8px;
-    color: #FFFFFF;
+    color: var(--empty-button-color);
     font-weight: 500;
     font-size: 13px;
     line-height: 13px;
@@ -89,9 +96,9 @@ body {
     align-items: center;
     width: 250px;
     height: 37px;
-    background: #FFFFFF;
+    background: var(--empty-button-color);
     border-radius: 8px;
-    color: #3369F3;
+    color: var(--full-button-color);
     font-weight: 500;
     font-size: 13px;
     line-height: 13px;

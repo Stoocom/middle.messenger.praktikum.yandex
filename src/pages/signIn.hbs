@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../../style.css">
+    <script src="../service.js"></script>
+</head>
+<body>
+    <form class="content-center log_size" onsubmit="submitted();">
+        <p>Вход</p>
+        {{>input type="text" title="Логин" fieldName="login"}}
+        {{>input type="text" title="Пароль" fieldName="password"}}
+        <br><br>
+        <br><br>
+        <br><br>
+        {{>input type="submit" title="Авторизироваться" className="full_button"}}
+        <a class="empty_button" href="signUp.hbs">Нет аккаунта?</a>
+    </form>
+</body>
+</html>
