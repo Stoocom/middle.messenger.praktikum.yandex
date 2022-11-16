@@ -45,6 +45,11 @@ body {
     color: var(--base-text-color);
 }
 
+.content-center label {
+    width: 143px;
+    padding-top: 10px;
+}
+
 .log_size {
     height: 450px;
 }
